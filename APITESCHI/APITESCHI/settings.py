@@ -70,15 +70,19 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'APITESCHI.wsgi.application'
-
+#$ gunicorn APITESHI.wsgi:application
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'iscteschi_xk93',
+        'USER': 'gerardobmaya',
+        'PASSWORD': 'pfGBtM61ooFmMfa05QUzf8PsDqWT4nrC',
+        'HOST': 'oregon-postgres.render.com',
+        'PORT': '5432',     #Puerto de Postgres     
     }
 }
 
