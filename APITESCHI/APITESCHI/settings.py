@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'APITESCHI.wsgi.application'
+WSGI_APPLICATION = 'APITESCHI.wsgi:application'
 #$ gunicorn APITESHI.wsgi:application
 
 # Database
