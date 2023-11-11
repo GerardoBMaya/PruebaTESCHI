@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-esbzys5krz*rcqum--gge9m9sev%ll6-$&!xm@dfsuk#mpakq9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['pruebaapi-ft2g.onrender.com']
+ALLOWED_HOSTS = ['pruebaapi-ft2g.onrender.com', ]
 
 
 
